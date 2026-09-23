@@ -19,7 +19,7 @@ export const leadership: Leadership[] = [
     start: "Sep 2025",
     end: "May 2026",
     highlight: "400+ students",
-    bullets: ["Represented 400+ students."],
+    bullets: ["Represented 400+ students in the Residence Hall Association."],
   },
   {
     organization: "Regnum Christi Mission Corps",
@@ -50,7 +50,7 @@ export const leadership: Leadership[] = [
     end: "Jun 2024",
     highlight: "20+ students",
     bullets: [
-      "Taught 20+ middle school students Flutter and Dart and guided them to build full applications.",
+      "Taught 20+ middle school students Flutter and Dart in biweekly sessions, guiding them to build full applications.",
     ],
   },
 ];

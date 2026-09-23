@@ -15,10 +15,10 @@ export const projects: Project[] = [
       "Privacy-first iOS app for group social sessions with real-time scoring and ephemeral photos.",
     description: [
       "Bottoms Up! is an iOS app for group social sessions, with real-time scoring and ephemeral photo storage, built in Swift and SwiftUI on Firebase.",
-      "The project follows Spec Driven Development (SDD). I authored a 400+ line technical spec covering identity, the data model and safety-by-design requirements, and the architecture is privacy-first.",
+      "I designed and specified the app and am now building it, following Spec Driven Development (SDD). I authored a 400+ line technical spec covering identity, the data model and safety-by-design requirements, and the architecture is privacy-first.",
     ],
     tags: ["Swift", "SwiftUI", "Firebase", "iOS", "SDD", "Privacy"],
-    role: "Spec author & developer",
+    role: "Designer, spec author & developer",
     outcomes: [
       "Authored a 400+ line technical spec covering identity, data model and safety-by-design requirements.",
       "Real-time scoring across group sessions.",
@@ -36,16 +36,16 @@ export const projects: Project[] = [
     title: "Medical Portal",
     year: "2024",
     summary:
-      "Patient-records system sold to three doctors, saving each about two hours per workday.",
+      "Patient-records system sold to three doctors, saving each two hours per workday.",
     description: [
       "From April to August 2024 I designed, developed and sold a medical portal to three doctors. It digitizes patient records in MongoDB.",
-      "The portal also automates prescription-note printing. Together, these changes saved each doctor about two hours per workday.",
+      "The portal also automates prescription-note printing. Together, these changes saved each doctor two hours per workday.",
     ],
     tags: ["MongoDB", "Healthcare", "Automation"],
     role: "Designer, developer & seller",
     outcomes: [
       "Sold to three doctors.",
-      "Saved each doctor about two hours per workday.",
+      "Saved each doctor two hours per workday.",
       "Digitized patient records in MongoDB and automated prescription-note printing.",
     ],
     links: {
@@ -61,14 +61,14 @@ export const projects: Project[] = [
     summary:
       "Cross-platform personal CRM for networking contacts: offline-first iOS with real-time sync to web.",
     description: [
-      "A personal CRM for tracking the people I meet at career fairs and networking events. The iOS client is offline-first and syncs to a web client in real time over WebSockets.",
-      "I designed a RESTful, JWT-authenticated API and the data model for contacts, interaction logs and follow-up tracking.",
+      "A personal CRM I designed and specified for tracking networking contacts from career fairs and events. The iOS client is offline-first and syncs to a web client in real time over WebSockets.",
+      "I designed a RESTful, JWT-authenticated API and a structured data model for contacts, interaction logs and follow-up tracking.",
     ],
     tags: ["iOS", "WebSockets", "REST API", "JWT", "Offline-first"],
-    role: "API & data model designer",
+    role: "Designer & spec author",
     outcomes: [
-      "Designed a RESTful, JWT-authenticated API.",
-      "Data model for contacts, interaction logs and follow-up tracking.",
+      "Designed and specified the full system, including a RESTful, JWT-authenticated API.",
+      "Structured data model for contacts, interaction logs and follow-up tracking.",
       "Offline-first iOS client with real-time WebSocket sync to web.",
     ],
     links: {

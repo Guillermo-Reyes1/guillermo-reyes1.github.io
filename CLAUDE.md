@@ -32,20 +32,24 @@ Personal portfolio for Guillermo A. Reyes Villalta, live at https://guillermo-re
 - Never put the user's phone number on the site. Never commit secrets or `.env` files.
 - One commit per logical step.
 
+## Source of truth
+The user's résumé is the source of truth for all content. It is NOT in the repo: the version
+they provided contains their phone number, so it must never be committed or served. The site's
+`/resume.pdf` must be a copy without the phone number.
+
 ## Open TODOs (as of 2026-09-23)
-1. `public/resume.pdf`: missing; the hero "Download résumé" button 404s until added.
-2. Headshot: add `public/headshot.jpg`, uncomment `headshot` in `content/site.ts` (`TODO_HEADSHOT`).
-3. Bottoms Up!: `TODO_GITHUB_LINK`, `TODO_SPEC_LINK` in `content/projects.ts`.
-4. Medical Portal: `TODO_GITHUB_LINK` (delete if the code stays private).
-5. Career Fair Contact Manager: `TODO_SPEC_LINK`.
-6. Project screenshots: optional `image` field per project; files go in `public/projects/`.
-7. Wording to confirm with the user (inferred, not given):
-   - project roles ("Spec author & developer", "Designer, developer & seller",
-     "API & data model designer")
-   - bio closing line "I'm looking for software engineering internships."
-   - hero line "Atlanta, GA · from El Salvador"
-   - SQL appears in both Languages and Data & Cloud (user may want one removed)
+1. `public/resume.pdf`: needs a phone-free version of the résumé (see above). Until then the
+   hero "Download résumé" button 404s.
+2. Bottoms Up!: `TODO_GITHUB_LINK`, `TODO_SPEC_LINK` in `content/projects.ts`.
+3. Medical Portal: `TODO_GITHUB_LINK` (delete if the code stays private).
+4. Career Fair Contact Manager: `TODO_SPEC_LINK`.
+5. Project screenshots: optional `image` field per project; files go in `public/projects/`.
+6. Not on the résumé but on the site (confirm with user or add to résumé):
+   - GT threads (AI & Cybersecurity) and Fintech minor
+   - "Atlanta, GA · from El Salvador" hero line; bio closing line about internships
+7. Removed TypeScript from Skills because the résumé doesn't list it; re-add if the user adds it
+   to the résumé.
 8. User will send more projects later: add them as objects in `content/projects.ts`.
 
-After finishing TODOs: re-run Lighthouse (last run: mobile 98/100/100/100, desktop 100×4) and
-remove completed items from this list.
+Done: headshot (`public/headshot.jpg`, 600×600, ~87 KB), content aligned to résumé.
+Last Lighthouse: mobile 96/100/100/100, desktop 100×4.

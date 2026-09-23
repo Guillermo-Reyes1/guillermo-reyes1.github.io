@@ -37,7 +37,7 @@ export function Hero() {
           <div className="mt-9 flex flex-wrap items-center gap-2 sm:gap-3">
             <a
               href={site.resumePath}
-              download
+              download="Guillermo-Reyes-Resume.pdf"
               className="inline-flex h-11 items-center gap-2 rounded-full bg-[#b3a369] px-5 text-sm font-semibold text-[#00223e] transition-colors hover:bg-[#eaaa00]"
             >
               <DownloadIcon width={18} height={18} />
@@ -77,7 +77,8 @@ export function Hero() {
             alt={headshot.alt}
             width={headshot.width}
             height={headshot.height}
-            className="fade-in size-40 rounded-full object-cover ring-4 ring-[#b3a369]/60 sm:size-52 md:order-last"
+            fetchPriority="high"
+            className="order-first size-28 rounded-full object-cover ring-4 ring-[#b3a369]/60 sm:size-40 md:order-last md:size-52"
           />
         )}
       </div>

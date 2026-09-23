@@ -22,7 +22,7 @@ export const experience: Experience[] = [
     start: "Jun 2024",
     end: "Aug 2024",
     bullets: [
-      "Tracked product-level sales trends in a restaurant SaaS product to inform pricing and inventory decisions.",
+      "Contributed to SaaS development for restaurants, tracking product-level sales trends to inform pricing and inventory decisions.",
     ],
     tags: ["SaaS", "Data analysis"],
   },
@@ -32,8 +32,8 @@ export const experience: Experience[] = [
     start: "Jun 2023",
     end: "Aug 2023",
     bullets: [
-      "Built and deployed a Python inventory management solution that cut manual workload by 60%.",
-      "Improved the company's ticketing system to speed up resolution times.",
+      "Built and deployed a Python-based inventory management solution that cut manual workload by 60%.",
+      "Contributed to improving the company's ticketing system for faster resolution times.",
     ],
     tags: ["Python", "Automation"],
   },

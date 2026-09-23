@@ -14,13 +14,12 @@ export const site: SiteConfig = {
   ],
   // Drop your PDF at /public/resume.pdf
   resumePath: "/resume.pdf",
-  // TODO_HEADSHOT: add /public/headshot.jpg and uncomment
-  // headshot: {
-  //   src: "/headshot.jpg",
-  //   alt: "Portrait of Guillermo Reyes",
-  //   width: 800,
-  //   height: 800,
-  // },
+  headshot: {
+    src: "/headshot.jpg",
+    alt: "Portrait of Guillermo Reyes",
+    width: 600,
+    height: 600,
+  },
   links: {
     github: "https://github.com/guillermo-reyes1",
     linkedin: "https://linkedin.com/in/guillermo-reyes1",
@@ -41,7 +40,7 @@ export const site: SiteConfig = {
     {
       school: "Academia Británica Cuscatleca",
       degree: "IB Diploma",
-      details: [],
+      details: ["GPA 4.0 / 4.0"],
       location: "El Salvador",
       date: "June 2024",
     },
