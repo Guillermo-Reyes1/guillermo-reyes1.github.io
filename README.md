@@ -20,7 +20,7 @@ Other scripts:
 | `npm run build`     | Builds the static site into `out/`                        |
 | `npm start`         | Serves `out/` locally (run `build` first)                 |
 | `npm run lint`      | ESLint (Next.js + TypeScript rules)                       |
-| `npm run typecheck` | `tsc --noEmit`                                            |
+| `npm run typecheck` | Generates route types, then `tsc --noEmit`               |
 
 ## Where everything lives
 
