@@ -44,10 +44,9 @@ no scratch pages, re-extract page 1, and re-align `content/` with it.
 2. Medical Portal: `TODO_GITHUB_LINK` (delete if the code stays private).
 3. Career Fair Contact Manager: `TODO_SPEC_LINK`.
 4. Project screenshots: optional `image` field per project; files go in `public/projects/`.
-5. On the site but not on the résumé (confirm with user or add to résumé):
-   - GT threads (AI & Cybersecurity) and Fintech minor
-   - "Atlanta, GA · from El Salvador" hero line; bio closing line about internships
-6. User will send more projects later: add them as objects in `content/projects.ts`.
+5. User will send more projects later: add them as objects in `content/projects.ts`.
 
 Done: headshot (600×600 JPG), résumé published (1 page, phone-free), content aligned to résumé
-incl. TypeScript. Last Lighthouse: mobile 96/100/100/100, desktop 100×4.
+incl. TypeScript. User confirmed (2026-09-23) content that isn't on the résumé but is correct:
+GT threads (AI & Cybersecurity), Fintech minor, "Atlanta, GA · from El Salvador", and the bio's
+closing line about internships. Last Lighthouse: mobile 96/100/100/100, desktop 100×4.
