@@ -4,6 +4,7 @@ import { Footer } from "@/components/Footer";
 import { Nav } from "@/components/Nav";
 import { themeScript } from "@/components/ThemeToggle";
 import { site } from "@/content/site";
+import { defaultTitle, ogImage } from "@/lib/seo";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -19,7 +20,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: `${site.shortName} | Software Engineer`,
+    default: defaultTitle,
     template: `%s | ${site.shortName}`,
   },
   description: site.seoDescription,
@@ -31,14 +32,16 @@ export const metadata: Metadata = {
     type: "website",
     url: "/",
     siteName: site.shortName,
-    title: `${site.shortName} | Software Engineer`,
+    title: defaultTitle,
     description: site.seoDescription,
     locale: "en_US",
+    images: [ogImage],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${site.shortName} | Software Engineer`,
+    title: defaultTitle,
     description: site.seoDescription,
+    images: [ogImage.url],
   },
   robots: { index: true, follow: true },
 };
