@@ -7,6 +7,8 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   // No image optimization server on a static host
   images: { unoptimized: true },
+  // Pin the project root (avoids picking up stray lockfiles in parent dirs)
+  turbopack: { root: __dirname },
 };
 
 export default nextConfig;
