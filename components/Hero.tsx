@@ -20,7 +20,7 @@ export function Hero() {
         className="pointer-events-none absolute inset-0 bg-[radial-gradient(60rem_30rem_at_85%_-10%,rgba(179,163,105,0.18),transparent_60%)]"
       />
       <div className="relative mx-auto grid max-w-5xl gap-10 px-5 pb-20 pt-16 sm:px-8 sm:pb-28 sm:pt-24 md:grid-cols-[1fr_auto] md:items-center">
-        <div className="fade-in max-w-2xl">
+        <div className="max-w-2xl">
           <p className="font-mono text-xs uppercase tracking-[0.18em] text-[#b3a369] sm:text-sm">
             {site.eyebrow}
           </p>
