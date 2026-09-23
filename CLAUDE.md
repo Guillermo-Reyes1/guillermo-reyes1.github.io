@@ -33,23 +33,21 @@ Personal portfolio for Guillermo A. Reyes Villalta, live at https://guillermo-re
 - One commit per logical step.
 
 ## Source of truth
-The user's résumé is the source of truth for all content. It is NOT in the repo: the version
-they provided contains their phone number, so it must never be committed or served. The site's
-`/resume.pdf` must be a copy without the phone number.
+The user's résumé is the source of truth for all content. Public copy: `public/resume.pdf`
+(page 1 only, no phone number), extracted from the user's Google Docs export. Their full export
+has a page 2 of "Unused" notes and stays local; `.gitignore` blocks `public/*Resume*.pdf` except
+`resume.pdf`. When the user sends a new résumé: re-read it, confirm there's no phone number and
+no scratch pages, re-extract page 1, and re-align `content/` with it.
 
 ## Open TODOs (as of 2026-09-23)
-1. `public/resume.pdf`: needs a phone-free version of the résumé (see above). Until then the
-   hero "Download résumé" button 404s.
-2. Bottoms Up!: `TODO_GITHUB_LINK`, `TODO_SPEC_LINK` in `content/projects.ts`.
-3. Medical Portal: `TODO_GITHUB_LINK` (delete if the code stays private).
-4. Career Fair Contact Manager: `TODO_SPEC_LINK`.
-5. Project screenshots: optional `image` field per project; files go in `public/projects/`.
-6. Not on the résumé but on the site (confirm with user or add to résumé):
+1. Bottoms Up!: `TODO_GITHUB_LINK`, `TODO_SPEC_LINK` in `content/projects.ts`.
+2. Medical Portal: `TODO_GITHUB_LINK` (delete if the code stays private).
+3. Career Fair Contact Manager: `TODO_SPEC_LINK`.
+4. Project screenshots: optional `image` field per project; files go in `public/projects/`.
+5. On the site but not on the résumé (confirm with user or add to résumé):
    - GT threads (AI & Cybersecurity) and Fintech minor
    - "Atlanta, GA · from El Salvador" hero line; bio closing line about internships
-7. Removed TypeScript from Skills because the résumé doesn't list it; re-add if the user adds it
-   to the résumé.
-8. User will send more projects later: add them as objects in `content/projects.ts`.
+6. User will send more projects later: add them as objects in `content/projects.ts`.
 
-Done: headshot (`public/headshot.jpg`, 600×600, ~87 KB), content aligned to résumé.
-Last Lighthouse: mobile 96/100/100/100, desktop 100×4.
+Done: headshot (600×600 JPG), résumé published (1 page, phone-free), content aligned to résumé
+incl. TypeScript. Last Lighthouse: mobile 96/100/100/100, desktop 100×4.

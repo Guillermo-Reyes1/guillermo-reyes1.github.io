@@ -6,7 +6,7 @@ export const skills: SkillGroup[] = [
     items: [
       "Python",
       "Java",
-      "JavaScript",
+      "JavaScript / TypeScript",
       "SQL",
       "Swift",
       "Dart",

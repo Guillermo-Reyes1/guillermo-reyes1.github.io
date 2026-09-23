@@ -12,7 +12,7 @@ export const site: SiteConfig = {
     "I'm a Computer Science student at Georgia Tech, concentrating in AI and cybersecurity with a minor in fintech. I grew up in El Salvador and have been shipping software for real users since high school: a patient-records system I sold to three doctors, company-wide AI training at Applaudo, and a coding club for middle schoolers.",
     "I like work that starts with a clear spec and ends with something people rely on. I'm looking for software engineering internships.",
   ],
-  // Drop your PDF at /public/resume.pdf
+  // One-page, phone-free résumé (never publish a copy with the phone number)
   resumePath: "/resume.pdf",
   headshot: {
     src: "/headshot.jpg",

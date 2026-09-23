@@ -42,3 +42,4 @@ next-env.d.ts
 
 # original résumé (contains phone number) — only a phone-free public/resume.pdf may be committed
 public/*Resume*.pdf
+!public/resume.pdf
