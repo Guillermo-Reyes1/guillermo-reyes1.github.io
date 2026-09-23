@@ -3,7 +3,7 @@ import { site } from "@/content/site";
 import { DownloadIcon, GitHubIcon, LinkedInIcon, MailIcon } from "./icons";
 
 const iconLink =
-  "inline-flex size-11 items-center justify-center rounded-full border border-white/20 text-white/85 transition-colors hover:border-[#b3a369] hover:text-[#b3a369]";
+  "inline-flex size-10 sm:size-11 items-center justify-center rounded-full border border-white/20 text-white/85 transition-colors hover:border-[#b3a369] hover:text-[#b3a369]";
 
 /** Always GT navy with white text and gold accents, in both themes. */
 export function Hero() {
@@ -34,7 +34,7 @@ export function Hero() {
             B.S. Computer Science · Georgia Tech · GPA 3.91 · {site.location}
           </p>
 
-          <div className="mt-9 flex flex-wrap items-center gap-3">
+          <div className="mt-9 flex flex-wrap items-center gap-2 sm:gap-3">
             <a
               href={site.resumePath}
               download

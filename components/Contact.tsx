@@ -41,10 +41,11 @@ export function Contact() {
                   className="group flex items-center gap-4 py-4 transition-colors"
                 >
                   <Icon className="shrink-0 text-accent-text" />
-                  <span className="w-20 shrink-0 font-mono text-xs uppercase tracking-wider text-muted">
+                  <span className="hidden w-20 shrink-0 font-mono text-xs uppercase tracking-wider text-muted sm:inline">
                     {label}
                   </span>
-                  <span className="min-w-0 break-all font-medium text-fg-strong group-hover:underline">
+                  <span className="min-w-0 font-medium text-fg-strong [overflow-wrap:anywhere] group-hover:underline">
+                    <span className="sr-only sm:hidden">{label}: </span>
                     {value}
                   </span>
                   {external && (
